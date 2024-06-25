@@ -4,96 +4,228 @@
         "pairings": [
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 27067,
+                    "image_url": "/images/P20191_8.jpg",
+                    "author": "",
+                    "title": "Chicago, Board of Trade II",
+                    "date": "",
+                    "topic": "cities, towns, villages (non-UK)"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 2739,
+                    "image_url": "/images/T04078_8.jpg",
+                    "author": "",
+                    "title": "Salisbury Cathedral from the Meadows",
+                    "date": "",
+                    "topic": "cities, towns, villages (non-UK)"
                 }
             },
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 51263,
+                    "image_url": "/images/D23926_8.jpg",
+                    "author": "",
+                    "title": "Monuments at Père-Lachaise; Also a Group of Figures",
+                    "date": "",
+                    "topic": "places"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 2441,
+                    "image_url": "/images/T04113_8.jpg",
+                    "author": "",
+                    "title": "The Gorse Bush",
+                    "date": "",
+                    "topic": "places"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 46478,
+                    "image_url": "/images/D19125_8.jpg",
+                    "author": "",
+                    "title": "Bayen Thurm, Cologne, with Studies of Headdress, Jars, Etc.",
+                    "date": "",
+                    "topic": "objects"
+                },
+                "left_image": {
+                    "image_id": 824,
+                    "image_url": "/images/N04235_8.jpg",
+                    "author": "",
+                    "title": "Professor Fred Brown",
+                    "date": "",
+                    "topic": "objects"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 370,
+                    "image_url": "/images/P11142_8.jpg",
+                    "author": "",
+                    "title": "The Haunted Palace",
+                    "date": "",
+                    "topic": "people"
+                },
+                "left_image": {
+                    "image_id": 1333,
+                    "image_url": "https://media.tate.org.uk/art/images/work/T/T03/T03909_10.jpg",
+                    "author": "",
+                    "title": "Head with Light Bulb at 2,607,008",
+                    "date": "",
+                    "topic": "people"
                 }
             }
         ]
     },
     "step2": {
-        "algorithm": "VIG",
+        "algorithm": "SIG",
         "pairings": [
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 55658,
+                    "image_url": "/images/D28339_8.jpg",
+                    "author": "",
+                    "title": "Distant View of Oxford",
+                    "date": "",
+                    "topic": "landscape"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 2617,
+                    "image_url": "images/N04810_8.jpg",
+                    "author": "",
+                    "title": "Sketch for ‘Hadleigh Castle’",
+                    "date": "",
+                    "topic": "landscape"
                 }
             },
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 48965,
+                    "image_url": "/images/D21623_8.jpg",
+                    "author": "",
+                    "title": "Distant View of ?Siena",
+                    "date": "",
+                    "topic": "nature"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 43515,
+                    "image_url": "images/D16159_8.jpg",
+                    "author": "",
+                    "title": "View of Rome from the Janiculum Hill, with the Oak of Torquato Tasso",
+                    "date": "",
+                    "topic": "nature"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 19877,
+                    "image_url": "/images/T06149_8.jpg",
+                    "author": "",
+                    "title": "Falls of the Rhine, engraved by J.B. Allen",
+                    "date": "",
+                    "topic": "architecture"
+                },
+                "left_image": {
+                    "image_id": 83737,
+                    "image_url": "images/P79036_8.jpg",
+                    "author": "",
+                    "title": "[no title]",
+                    "date": "",
+                    "topic": "architecture"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 36889,
+                    "image_url": "/images/D09510_8.jpg",
+                    "author": "",
+                    "title": "Lydford Castle and Church",
+                    "date": "",
+                    "topic": "places"
+                },
+                "left_image": {
+                    "image_id": 4499,
+                    "image_url": "images/T04171_8.jpg",
+                    "author": "",
+                    "title": "Volendam, Holland, from the Zuidende",
+                    "date": "",
+                    "topic": "places"
                 }
             }
         ]
     },
     "step3": {
-        "algorithm": "VIG",
+        "algorithm": "XRAY",
         "pairings": [
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 15473,
+                    "image_url": "/images/T04804_8.jpg",
+                    "author": "",
+                    "title": "Dartmouth Castle, on the River Dart",
+                    "date": "",
+                    "topic": "people"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 796,
+                    "image_url": "images/P07605_8.jpg",
+                    "author": "",
+                    "title": "Seth’s Snood was the Envy of the Boys in the Bunkhouse",
+                    "date": "",
+                    "topic": "people"
                 }
             },
             {
                 "right_image": {
-                    "image_url": "https://images.unsplash.com/photo-1718762538704-9698cd001106?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 45494,
+                    "image_url": "/images/D18139_8.jpg",
+                    "author": "",
+                    "title": "Arundel Castle on the River Arun, with a Rainbow",
+                    "date": "",
+                    "topic": "places"
                 },
                 "left_image": {
-                    "image_url": "https://plus.unsplash.com/premium_photo-1673264933056-8f2f9c87742f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "author": "Author Name",
-                    "title": "",
-                    "date": ""
+                    "image_id": 21761,
+                    "image_url": "images/T07139_8.jpg",
+                    "author": "",
+                    "title": "Jacob and the Angel",
+                    "date": "",
+                    "topic": "places"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 16711,
+                    "image_url": "/images/T05147_8.jpg",
+                    "author": "",
+                    "title": "Loch Leven Castle",
+                    "date": "",
+                    "topic": "military"
+                },
+                "left_image": {
+                    "image_id": 3367,
+                    "image_url": "images/T02772_8.jpg",
+                    "author": "",
+                    "title": "Cardness Castle, near Gatehouse, Kirkcudbrightshire",
+                    "date": "",
+                    "topic": "military"
+                }
+            },
+            {
+                "right_image": {
+                    "image_id": 19830,
+                    "image_url": "/images/T06102_8.jpg",
+                    "author": "",
+                    "title": "Castle Upnor, River Medway, engraved by J.B. Allen",
+                    "date": "",
+                    "topic": "architecture"
+                },
+                "left_image": {
+                    "image_id": 1169,
+                    "image_url": "images/T02121_8.jpg",
+                    "author": "",
+                    "title": "Nor Fox, nor Wolf, nor Rat among our Sheep",
+                    "date": "",
+                    "topic": "architecture"
                 }
             }
         ]
