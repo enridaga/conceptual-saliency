@@ -1,0 +1,3976 @@
+{
+    "VIG": {
+        "lattice": [
+            [
+                {
+                    "artworks_num": 8952,
+                    "attributes": [
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 32
+                },
+                {
+                    "artworks_num": 14470,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 3,
+                    "id": 13
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8503,
+                    "attributes": [
+                        "abstraction"
+                    ],
+                    "attributes_num": 1,
+                    "id": 35
+                },
+                {
+                    "artworks_num": 7680,
+                    "attributes": [
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 47
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9526,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 26
+                },
+                {
+                    "artworks_num": 6429,
+                    "attributes": [
+                        "abstraction",
+                        "non-representational"
+                    ],
+                    "attributes_num": 2,
+                    "id": 71
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8248,
+                    "attributes": [
+                        "emotions, concepts and ideas"
+                    ],
+                    "attributes_num": 1,
+                    "id": 40
+                },
+                {
+                    "artworks_num": 7248,
+                    "attributes": [
+                        "architecture",
+                        "features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 53
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                },
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 8281,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 39
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8503,
+                    "attributes": [
+                        "abstraction"
+                    ],
+                    "attributes_num": 1,
+                    "id": 35
+                },
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 6607,
+                    "attributes": [
+                        "countries and continents",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 65
+                }
+            ],
+            [
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                },
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6021,
+                    "attributes": [
+                        "emotions, concepts and ideas",
+                        "formal qualities"
+                    ],
+                    "attributes_num": 2,
+                    "id": 79
+                },
+                {
+                    "artworks_num": 6731,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 62
+                }
+            ],
+            [
+                {
+                    "artworks_num": 19158,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 7
+                },
+                {
+                    "artworks_num": 6217,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 4,
+                    "id": 77
+                }
+            ],
+            [
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                },
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "id": 79,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "emotions, concepts and ideas",
+                        "formal qualities"
+                    ],
+                    "artworks_num": 6021
+                },
+                {
+                    "id": 8,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 18709
+                }
+            ],
+            [
+                {
+                    "id": 26,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "artworks_num": 9526
+                },
+                {
+                    "id": 53,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "features"
+                    ],
+                    "artworks_num": 7248
+                }
+            ],
+            [
+                {
+                    "id": 35,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "abstraction"
+                    ],
+                    "artworks_num": 8503
+                },
+                {
+                    "id": 62,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "artworks_num": 6731
+                }
+            ],
+            [
+                {
+                    "id": 40,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "emotions, concepts and ideas"
+                    ],
+                    "artworks_num": 8248
+                },
+                {
+                    "id": 44,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "artworks_num": 8028
+                }
+            ],
+            [
+                {
+                    "id": 56,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "military"
+                    ],
+                    "artworks_num": 6910
+                },
+                {
+                    "id": 62,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "artworks_num": 6731
+                }
+            ],
+            [
+                {
+                    "id": 79,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "emotions, concepts and ideas",
+                        "formal qualities"
+                    ],
+                    "artworks_num": 6021
+                },
+                {
+                    "id": 39,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "artworks_num": 8281
+                }
+            ],
+            [
+                {
+                    "id": 26,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "artworks_num": 9526
+                },
+                {
+                    "id": 62,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "artworks_num": 6731
+                }
+            ],
+            [
+                {
+                    "id": 40,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "emotions, concepts and ideas"
+                    ],
+                    "artworks_num": 8248
+                },
+                {
+                    "id": 47,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "artworks_num": 7680
+                }
+            ],
+            [
+                {
+                    "id": 32,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "objects",
+                        "people"
+                    ],
+                    "artworks_num": 8952
+                },
+                {
+                    "id": 8,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 18709
+                }
+            ],
+            [
+                {
+                    "id": 56,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "military"
+                    ],
+                    "artworks_num": 6910
+                },
+                {
+                    "id": 77,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "artworks_num": 6217
+                }
+            ],
+            [
+                {
+                    "id": 1,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "artworks_num": 36486
+                },
+                {
+                    "id": 77,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "artworks_num": 6217
+                }
+            ],
+            [
+                {
+                    "id": 26,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "artworks_num": 9526
+                },
+                {
+                    "id": 13,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "artworks_num": 14470
+                }
+            ],
+            [
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                },
+                {
+                    "id": 13,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "artworks_num": 14470
+                }
+            ]
+        ],
+        "scatterplot": [
+            [
+                {
+                    "artworks_num": 6348,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 5,
+                    "id": 74
+                },
+                {
+                    "artworks_num": 6758,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 61
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6554,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 5,
+                    "id": 67
+                },
+                {
+                    "artworks_num": 6775,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 60
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9812,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 24
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8358,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 37
+                },
+                {
+                    "artworks_num": 6758,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 61
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9400,
+                    "attributes": [
+                        "UK counties",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 29
+                },
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5904,
+                    "attributes": [
+                        "places",
+                        "society"
+                    ],
+                    "attributes_num": 2,
+                    "id": 84
+                },
+                {
+                    "artworks_num": 6758,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 61
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5964,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 82
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7483,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 50
+                },
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8807,
+                    "attributes": [
+                        "nature",
+                        "society"
+                    ],
+                    "attributes_num": 2,
+                    "id": 34
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9373,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 30
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7488,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 49
+                },
+                {
+                    "artworks_num": 7059,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 54
+                }
+            ],
+            [
+                {
+                    "artworks_num": 10354,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 21
+                },
+                {
+                    "artworks_num": 6400,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 72
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8094,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 43
+                },
+                {
+                    "artworks_num": 6775,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 60
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8281,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 39
+                },
+                {
+                    "artworks_num": 6247,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 76
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5996,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 80
+                },
+                {
+                    "artworks_num": 6247,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 76
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8354,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 38
+                },
+                {
+                    "artworks_num": 6537,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 68
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8952,
+                    "attributes": [
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 32
+                },
+                {
+                    "artworks_num": 7059,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 54
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8207,
+                    "attributes": [
+                        "adults",
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 41
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8410,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 36
+                },
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9526,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 26
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5892,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 85
+                },
+                {
+                    "artworks_num": 6247,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 76
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                },
+                {
+                    "artworks_num": 6400,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 72
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8125,
+                    "attributes": [
+                        "UK counties",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 42
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ]
+        ],
+        "barchart": {}
+    },
+    "SIG": {
+        "lattice": [
+            [
+                {
+                    "artworks_num": 11075,
+                    "attributes": [
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 2,
+                    "id": 20
+                },
+                {
+                    "artworks_num": 7483,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 50
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                },
+                {
+                    "artworks_num": 7488,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 49
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7248,
+                    "attributes": [
+                        "architecture",
+                        "features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 53
+                },
+                {
+                    "artworks_num": 19158,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 7
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7248,
+                    "attributes": [
+                        "architecture",
+                        "features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 53
+                },
+                {
+                    "artworks_num": 8248,
+                    "attributes": [
+                        "emotions, concepts and ideas"
+                    ],
+                    "attributes_num": 1,
+                    "id": 40
+                }
+            ],
+            [
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                },
+                {
+                    "artworks_num": 9462,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 27
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 8503,
+                    "attributes": [
+                        "abstraction"
+                    ],
+                    "attributes_num": 1,
+                    "id": 35
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                },
+                {
+                    "artworks_num": 9582,
+                    "attributes": [
+                        "adults",
+                        "nature",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 25
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6647,
+                    "attributes": [
+                        "nature",
+                        "seascapes and coasts"
+                    ],
+                    "attributes_num": 2,
+                    "id": 64
+                },
+                {
+                    "artworks_num": 6731,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 62
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18618,
+                    "attributes": [
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 9
+                },
+                {
+                    "artworks_num": 7038,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 55
+                }
+            ],
+            [
+                {
+                    "artworks_num": 15963,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 3,
+                    "id": 11
+                },
+                {
+                    "artworks_num": 5996,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 80
+                }
+            ],
+            [
+                {
+                    "artworks_num": 13186,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 15
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 15963,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 3,
+                    "id": 11
+                },
+                {
+                    "artworks_num": 6906,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 57
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18618,
+                    "attributes": [
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 9
+                },
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                },
+                {
+                    "artworks_num": 5964,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 82
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                },
+                {
+                    "artworks_num": 6504,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 69
+                }
+            ],
+            [
+                {
+                    "artworks_num": 11075,
+                    "attributes": [
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 2,
+                    "id": 20
+                },
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                },
+                {
+                    "artworks_num": 6554,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 5,
+                    "id": 67
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6647,
+                    "attributes": [
+                        "nature",
+                        "seascapes and coasts"
+                    ],
+                    "attributes_num": 2,
+                    "id": 64
+                },
+                {
+                    "artworks_num": 8094,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 43
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 5984,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 81
+                }
+            ],
+            [
+                {
+                    "artworks_num": 13186,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 15
+                },
+                {
+                    "artworks_num": 9363,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 31
+                }
+            ],
+            [
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                },
+                {
+                    "artworks_num": 8358,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 37
+                }
+            ],
+            [
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 6775,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 60
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                },
+                {
+                    "artworks_num": 6589,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 66
+                }
+            ],
+            [
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                },
+                {
+                    "id": 31,
+                    "attributes_num": 3,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "artworks_num": 9363
+                }
+            ]
+        ],
+        "scatterplot": [
+            [
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7483,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 50
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6906,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 57
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6731,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 62
+                },
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6504,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 69
+                },
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7038,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 55
+                },
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "artworks_num": 10169,
+                    "attributes": [
+                        "nature",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 22
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6309,
+                    "attributes": [
+                        "UK countries and regions",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 75
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6607,
+                    "attributes": [
+                        "countries and continents",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 65
+                },
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7488,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 49
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6217,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 4,
+                    "id": 77
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8094,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 43
+                },
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8358,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 37
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6589,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 66
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5984,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 81
+                },
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                }
+            ],
+            [
+                {
+                    "id": 50,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "artworks_num": 7483
+                },
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                }
+            ],
+            [
+                {
+                    "id": 55,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "artworks_num": 7038
+                },
+                {
+                    "id": 3,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "places"
+                    ],
+                    "artworks_num": 23842
+                }
+            ],
+            [
+                {
+                    "id": 49,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 7488
+                },
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                }
+            ],
+            [
+                {
+                    "id": 77,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "artworks_num": 6217
+                },
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                }
+            ],
+            [
+                {
+                    "id": 66,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "artworks_num": 6589
+                },
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                }
+            ],
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 2,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "artworks_num": 29787
+                }
+            ],
+            [
+                {
+                    "id": 57,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 6906
+                },
+                {
+                    "id": 3,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "places"
+                    ],
+                    "artworks_num": 23842
+                }
+            ],
+            [
+                {
+                    "id": 37,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "artworks_num": 8358
+                },
+                {
+                    "id": 3,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "places"
+                    ],
+                    "artworks_num": 23842
+                }
+            ],
+            [
+                {
+                    "id": 78,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 6027
+                },
+                {
+                    "id": 6,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "people"
+                    ],
+                    "artworks_num": 20800
+                }
+            ],
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 6,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "people"
+                    ],
+                    "artworks_num": 20800
+                }
+            ]
+        ],
+        "barchart": [
+            [
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                },
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                }
+            ],
+            [
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                },
+                {
+                    "artworks_num": 7488,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 49
+                }
+            ],
+            [
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                },
+                {
+                    "artworks_num": 7038,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 55
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8889,
+                    "attributes": [
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 33
+                },
+                {
+                    "artworks_num": 6647,
+                    "attributes": [
+                        "nature",
+                        "seascapes and coasts"
+                    ],
+                    "attributes_num": 2,
+                    "id": 64
+                }
+            ],
+            [
+                {
+                    "artworks_num": 13186,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 15
+                },
+                {
+                    "artworks_num": 7038,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 55
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9812,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 24
+                },
+                {
+                    "artworks_num": 5984,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 81
+                }
+            ],
+            [
+                {
+                    "artworks_num": 12142,
+                    "attributes": [
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 17
+                },
+                {
+                    "artworks_num": 6309,
+                    "attributes": [
+                        "UK countries and regions",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 75
+                }
+            ],
+            [
+                {
+                    "artworks_num": 19158,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 7
+                },
+                {
+                    "artworks_num": 6647,
+                    "attributes": [
+                        "nature",
+                        "seascapes and coasts"
+                    ],
+                    "attributes_num": 2,
+                    "id": 64
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9526,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 26
+                },
+                {
+                    "artworks_num": 5964,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 82
+                }
+            ],
+            [
+                {
+                    "artworks_num": 10354,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 21
+                },
+                {
+                    "artworks_num": 6217,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 4,
+                    "id": 77
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9462,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 27
+                },
+                {
+                    "artworks_num": 5984,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 81
+                }
+            ],
+            [
+                {
+                    "artworks_num": 14589,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 12
+                },
+                {
+                    "artworks_num": 7488,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 49
+                }
+            ],
+            [
+                {
+                    "artworks_num": 15963,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 3,
+                    "id": 11
+                },
+                {
+                    "artworks_num": 5964,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 82
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18618,
+                    "attributes": [
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 9
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                },
+                {
+                    "artworks_num": 6348,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 5,
+                    "id": 74
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                },
+                {
+                    "artworks_num": 6309,
+                    "attributes": [
+                        "UK countries and regions",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 75
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9363,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 31
+                },
+                {
+                    "artworks_num": 6217,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 4,
+                    "id": 77
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9431,
+                    "attributes": [
+                        "UK countries and regions",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 28
+                },
+                {
+                    "artworks_num": 5996,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 80
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 11717,
+                    "attributes": [
+                        "architecture",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 3,
+                    "id": 18
+                },
+                {
+                    "artworks_num": 6348,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 5,
+                    "id": 74
+                }
+            ],
+            [
+                {
+                    "artworks_num": 14470,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 3,
+                    "id": 13
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "id": 7,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "artworks_num": 19158
+                },
+                {
+                    "id": 74,
+                    "attributes_num": 5,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "artworks_num": 6348
+                }
+            ],
+            [
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                },
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                }
+            ],
+            [
+                {
+                    "id": 17,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "countries and continents",
+                        "places"
+                    ],
+                    "artworks_num": 12142
+                },
+                {
+                    "id": 2,
+                    "attributes_num": 1,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "artworks_num": 29787
+                }
+            ]
+        ]
+    },
+    "XRAY": {
+        "lattice": [
+            [
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 23323,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 4
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8207,
+                    "attributes": [
+                        "adults",
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 41
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6647,
+                    "attributes": [
+                        "nature",
+                        "seascapes and coasts"
+                    ],
+                    "attributes_num": 2,
+                    "id": 64
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7478,
+                    "attributes": [
+                        "society",
+                        "transport: water"
+                    ],
+                    "attributes_num": 2,
+                    "id": 51
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5892,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 85
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8952,
+                    "attributes": [
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 32
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6826,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 58
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 19158,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 7
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7405,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "society"
+                    ],
+                    "attributes_num": 3,
+                    "id": 52
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9400,
+                    "attributes": [
+                        "UK counties",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 29
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 10169,
+                    "attributes": [
+                        "nature",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 22
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9526,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 26
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6493,
+                    "attributes": [
+                        "people",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 70
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 11075,
+                    "attributes": [
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 2,
+                    "id": 20
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6400,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 72
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18618,
+                    "attributes": [
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 9
+                },
+                {
+                    "artworks_num": 20800,
+                    "attributes": [
+                        "people"
+                    ],
+                    "attributes_num": 1,
+                    "id": 6
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6677,
+                    "attributes": [
+                        "architecture",
+                        "society"
+                    ],
+                    "attributes_num": 2,
+                    "id": 63
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 12142,
+                    "attributes": [
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 17
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 5904,
+                    "attributes": [
+                        "places",
+                        "society"
+                    ],
+                    "attributes_num": 2,
+                    "id": 84
+                },
+                {
+                    "artworks_num": 6910,
+                    "attributes": [
+                        "military"
+                    ],
+                    "attributes_num": 1,
+                    "id": 56
+                }
+            ],
+            [
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 11211,
+                    "attributes": [
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 19
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7248,
+                    "attributes": [
+                        "architecture",
+                        "features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 53
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7901,
+                    "attributes": [
+                        "people",
+                        "society"
+                    ],
+                    "attributes_num": 2,
+                    "id": 45
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ]
+        ],
+        "scatterplot": [
+            [
+                {
+                    "artworks_num": 10030,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 23
+                },
+                {
+                    "artworks_num": 6504,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 69
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9431,
+                    "attributes": [
+                        "UK countries and regions",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 28
+                },
+                {
+                    "artworks_num": 36486,
+                    "attributes": [
+                        "nature"
+                    ],
+                    "attributes_num": 1,
+                    "id": 1
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9462,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 27
+                },
+                {
+                    "artworks_num": 18709,
+                    "attributes": [
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 2,
+                    "id": 8
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8410,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 36
+                },
+                {
+                    "artworks_num": 6731,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK counties",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 62
+                }
+            ],
+            [
+                {
+                    "artworks_num": 11717,
+                    "attributes": [
+                        "architecture",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 3,
+                    "id": 18
+                },
+                {
+                    "artworks_num": 18499,
+                    "attributes": [
+                        "architecture",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 2,
+                    "id": 10
+                }
+            ],
+            [
+                {
+                    "artworks_num": 14470,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 3,
+                    "id": 13
+                },
+                {
+                    "artworks_num": 10354,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 21
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6400,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 72
+                },
+                {
+                    "artworks_num": 6217,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "water: inland"
+                    ],
+                    "attributes_num": 4,
+                    "id": 77
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                },
+                {
+                    "artworks_num": 8503,
+                    "attributes": [
+                        "abstraction"
+                    ],
+                    "attributes_num": 1,
+                    "id": 35
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9462,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 27
+                },
+                {
+                    "artworks_num": 19158,
+                    "attributes": [
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 2,
+                    "id": 7
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8207,
+                    "attributes": [
+                        "adults",
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 41
+                },
+                {
+                    "artworks_num": 8248,
+                    "attributes": [
+                        "emotions, concepts and ideas"
+                    ],
+                    "attributes_num": 1,
+                    "id": 40
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6400,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "adults",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 72
+                },
+                {
+                    "artworks_num": 7483,
+                    "attributes": [
+                        "architecture",
+                        "countries and continents",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 50
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7499,
+                    "attributes": [
+                        "adults",
+                        "architecture",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 48
+                },
+                {
+                    "artworks_num": 14011,
+                    "attributes": [
+                        "society"
+                    ],
+                    "attributes_num": 1,
+                    "id": 14
+                }
+            ],
+            [
+                {
+                    "artworks_num": 15963,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature"
+                    ],
+                    "attributes_num": 3,
+                    "id": 11
+                },
+                {
+                    "artworks_num": 6607,
+                    "attributes": [
+                        "countries and continents",
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 65
+                }
+            ],
+            [
+                {
+                    "artworks_num": 13186,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 15
+                },
+                {
+                    "artworks_num": 22715,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "attributes_num": 2,
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8207,
+                    "attributes": [
+                        "adults",
+                        "objects",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 41
+                },
+                {
+                    "artworks_num": 9373,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 30
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8889,
+                    "attributes": [
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 33
+                },
+                {
+                    "artworks_num": 12381,
+                    "attributes": [
+                        "objects"
+                    ],
+                    "attributes_num": 1,
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "artworks_num": 7405,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "society"
+                    ],
+                    "attributes_num": 3,
+                    "id": 52
+                },
+                {
+                    "artworks_num": 5984,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 81
+                }
+            ],
+            [
+                {
+                    "artworks_num": 9582,
+                    "attributes": [
+                        "adults",
+                        "nature",
+                        "people"
+                    ],
+                    "attributes_num": 3,
+                    "id": 25
+                },
+                {
+                    "artworks_num": 9812,
+                    "attributes": [
+                        "architecture",
+                        "landscape",
+                        "nature",
+                        "townscapes, man-made features"
+                    ],
+                    "attributes_num": 4,
+                    "id": 24
+                }
+            ],
+            [
+                {
+                    "artworks_num": 13186,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 15
+                },
+                {
+                    "artworks_num": 29787,
+                    "attributes": [
+                        "architecture"
+                    ],
+                    "attributes_num": 1,
+                    "id": 2
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8028,
+                    "attributes": [
+                        "landscape",
+                        "nature",
+                        "water: inland"
+                    ],
+                    "attributes_num": 3,
+                    "id": 44
+                },
+                {
+                    "artworks_num": 6906,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 57
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6537,
+                    "attributes": [
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 68
+                },
+                {
+                    "artworks_num": 5996,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 5,
+                    "id": 80
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6247,
+                    "attributes": [
+                        "adults",
+                        "people",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 76
+                },
+                {
+                    "artworks_num": 7038,
+                    "attributes": [
+                        "UK counties",
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 55
+                }
+            ],
+            [
+                {
+                    "artworks_num": 14589,
+                    "attributes": [
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 12
+                },
+                {
+                    "artworks_num": 6027,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 4,
+                    "id": 78
+                }
+            ],
+            [
+                {
+                    "artworks_num": 6775,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "UK countries and regions",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 60
+                },
+                {
+                    "artworks_num": 8125,
+                    "attributes": [
+                        "UK counties",
+                        "nature",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 42
+                }
+            ],
+            [
+                {
+                    "artworks_num": 8354,
+                    "attributes": [
+                        "UK countries and regions",
+                        "architecture",
+                        "places"
+                    ],
+                    "attributes_num": 3,
+                    "id": 38
+                },
+                {
+                    "artworks_num": 23842,
+                    "attributes": [
+                        "places"
+                    ],
+                    "attributes_num": 1,
+                    "id": 3
+                }
+            ]
+        ],
+        "barchart": [
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                }
+            ],
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                }
+            ],
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 59,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "places"
+                    ],
+                    "artworks_num": 6817
+                }
+            ],
+            [
+                {
+                    "id": 81,
+                    "attributes_num": 4,
+                    "attributes": [
+                        "UK counties",
+                        "architecture",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5984
+                },
+                {
+                    "id": 58,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "people"
+                    ],
+                    "artworks_num": 6826
+                }
+            ],
+            [
+                {
+                    "id": 85,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "artworks_num": 5892
+                },
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                }
+            ],
+            [
+                {
+                    "id": 85,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "artworks_num": 5892
+                },
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                }
+            ],
+            [
+                {
+                    "id": 85,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "artworks_num": 5892
+                },
+                {
+                    "id": 59,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "places"
+                    ],
+                    "artworks_num": 6817
+                }
+            ],
+            [
+                {
+                    "id": 85,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "military",
+                        "nature"
+                    ],
+                    "artworks_num": 5892
+                },
+                {
+                    "id": 58,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "people"
+                    ],
+                    "artworks_num": 6826
+                }
+            ],
+            [
+                {
+                    "id": 80,
+                    "attributes_num": 5,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5996
+                },
+                {
+                    "id": 5,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "architecture",
+                        "nature"
+                    ],
+                    "artworks_num": 22715
+                }
+            ],
+            [
+                {
+                    "id": 80,
+                    "attributes_num": 5,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5996
+                },
+                {
+                    "id": 4,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "landscape",
+                        "nature"
+                    ],
+                    "artworks_num": 23323
+                }
+            ],
+            [
+                {
+                    "id": 80,
+                    "attributes_num": 5,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5996
+                },
+                {
+                    "id": 59,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "UK cities, towns and villages",
+                        "places"
+                    ],
+                    "artworks_num": 6817
+                }
+            ],
+            [
+                {
+                    "id": 80,
+                    "attributes_num": 5,
+                    "attributes": [
+                        "architecture",
+                        "cities, towns, villages (non-UK)",
+                        "countries and continents",
+                        "nature",
+                        "places"
+                    ],
+                    "artworks_num": 5996
+                },
+                {
+                    "id": 58,
+                    "attributes_num": 2,
+                    "attributes": [
+                        "actions: postures and motions",
+                        "people"
+                    ],
+                    "artworks_num": 6826
+                }
+            ]
+        ]
+    }
+}
