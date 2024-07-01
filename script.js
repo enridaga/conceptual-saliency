@@ -44,29 +44,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function updateProgress() {
             const progressElement = document.getElementById(`progress-${group}`);
-            progressElement.textContent = `Question ${questionIndex + 1} of 10`;
+            progressElement.textContent = `Question ${questionIndex + 1} of ${pairs.length}`;
+            // progressElement.textContent = `Question ${questionIndex + 1} of 10`;
+        }
+
+        function createAttributeList(attributes) {
+            const ul = document.createElement('ul');
+            attributes.forEach(attribute => {
+                const li = document.createElement('li');
+                li.textContent = attribute;
+                ul.appendChild(li);
+            });
+            return ul;
         }
 
         function createQuestion(method, chart, pair) {
             const questionDiv = document.createElement('div');
             questionDiv.className = 'question';
 
-            const attributesLeft = pair[0].attributes.join(', ');
-            const attributesRight = pair[1].attributes.join(', ');
+            const leftAttributesList = createAttributeList(pair[0].attributes);
+            const rightAttributesList = createAttributeList(pair[1].attributes);
 
             questionDiv.innerHTML = `
                 <div class="attributes">
                     <div class="attribute-wrapper">
                         <strong>Left:</strong>
-                        <div class="attribute-container">${attributesLeft}</div>
+                        <div class="attribute-container"></div>
                     </div>
                     <div class="attribute-wrapper">
                         <strong>Right:</strong>
-                        <div class="attribute-container">${attributesRight}</div>
+                        <div class="attribute-container"></div>
                     </div>
                 </div>
                 <div class="question-group">
-                    <p>Which concept is more representative?</p>
+                    <p>Which concept is more <b>representative</b>?</p>
                     <label>
                         <input type="radio" name="rep" value="left"> Left
                     </label>
@@ -75,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </label>
                 </div>
                 <div class="question-group">
-                    <p>Which concept is more peculiar?</p>
+                    <p>Which concept is more <b>peculiar</b>?</p>
                     <label>
                         <input type="radio" name="pec" value="left"> Left
                     </label>
@@ -85,6 +96,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <button id="next-button" disabled>Next</button>
             `;
+
+            const leftContainer = questionDiv.querySelector('.attribute-wrapper .attribute-container');
+            const rightContainer = questionDiv.querySelector('.attribute-wrapper + .attribute-wrapper .attribute-container');
+
+            leftContainer.appendChild(leftAttributesList);
+            rightContainer.appendChild(rightAttributesList);
 
             const repRadios = questionDiv.querySelectorAll('input[name="rep"]');
             const pecRadios = questionDiv.querySelectorAll('input[name="pec"]');
@@ -107,6 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const selectedPec = pecValue === 'left' ? pair[0] : pair[1];
 
                 results.data.push({
+                    questionNumber: questionIndex,
                     timestamp: new Date().toISOString(),
                     id: generateUniqueId(),
                     group: group,
@@ -130,14 +148,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 container.removeChild(container.firstChild);
             }
 
-            if (questionIndex >= 10 || questionIndex >= pairs.length) {
-                // Survey is complete after 10 questions
+            if (questionIndex >= pairs.length) {
+                // Survey is complete
                 document.getElementById(`survey-group-${group}`).style.display = 'none';
                 document.getElementById('thank-you').style.display = 'block';
                 console.log('Survey results:', results); // Log the results for testing
                 sendResults(results); // Send the results to the server for testing
                 return;
             }
+
+            // if (questionIndex >= 10 || questionIndex >= pairs.length) {
+            //     // Survey is complete after 10 questions
+            //     document.getElementById(`survey-group-${group}`).style.display = 'none';
+            //     document.getElementById('thank-you').style.display = 'block';
+            //     console.log('Survey results:', results); // Log the results for testing
+            //     sendResults(results); // Send the results to the server for testing
+            //     return;
+            // }
 
             updateProgress();
 
@@ -153,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function sendResults(results) {
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzA_hz8AvTklWZ-38FWb3uM154acbjU8j4VK-oTm2_Po6wqlPxhYQwrRAmYBTqvQpktdQ/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYackKUPibBYz3mGFZ4JNZYGHFNzU3k93pcgh6dLfgORg0I_RGmzVsrvjeRGfE4oIkmQ/exec';
         fetch(scriptURL, {
             method: 'POST',
             mode: 'no-cors',
