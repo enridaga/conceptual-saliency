@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Image Saliency Survey</h1>
+        <h2>Which image is more salient?</h2>
+        <p>Welcome to our survey! In this survey, you will be shown pairs of images. Your task is to select the image
+            you find more salient. Saliency is defined as ...</p>
+        <div class="definitions">
+            <h3>Definitions</h3>
+            <!-- <p><strong>Saliency:</strong> The quality of being particularly noticeable or important.</p>
+            <p><strong>Salient Image:</strong> An image that captures attention more than others.</p> -->
+        </div>
+    </header>
+    <main>
+        <div id="group-selection">
+            <h3>Select Your Group</h3>
+            <button id="select-group-a">Group A</button>
+            <button id="select-group-b">Group B</button>
+        </div>
+        <div id="survey-group-a" class="survey-group" style="display: none;">
+            <h3>Group A</h3>
+            <div id="progress-a" class="progress"></div>
+            <div class="question-container" id="group-a-questions"></div>
+        </div>
+        <div id="survey-group-b" class="survey-group" style="display: none;">
+            <h3>Group B</h3>
+            <div id="progress-b" class="progress"></div>
+            <div class="question-container" id="group-b-questions"></div>
+        </div>
+        <div id="thank-you" style="display: none;">
+            <h3>Thank you for completing the survey!</h3>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

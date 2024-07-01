@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #dfe7ef;
+    color: #2a3d66;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#group-selection {
+    margin-bottom: 3em;
+}
+
+.survey-group {
+    margin-bottom: 3em;
+}
+
+.progress {
+    font-size: 1.2em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background-color: #dfe7ef;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #dfe7ef;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.attribute-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    flex-grow: 1;
+}
+
+.attribute-container {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.attribute-wrapper strong {
+    margin-bottom: 0.5em;
+}
+
+.question-group {
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: white;
+    background-color: #ff6b6b;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 0.5em;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.thank-you {
+    text-align: center;
+    padding: 2em;
+    background-color: #dfe7ef;
+    color: #2a3d66;
+    border-radius: 10px;
+}
