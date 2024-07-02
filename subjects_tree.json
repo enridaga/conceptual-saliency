@@ -1,0 +1,568 @@
+{
+    "name": "1",
+    "children": [
+        {
+            "name": "people",
+            "children": [
+                {
+                    "name": "children"
+                },
+                {
+                    "name": "body"
+                },
+                {
+                    "name": "actions: postures and motions"
+                },
+                {
+                    "name": "groups"
+                },
+                {
+                    "name": "adults"
+                },
+                {
+                    "name": "actions: expressive"
+                },
+                {
+                    "name": "portraits"
+                },
+                {
+                    "name": "actions: processes and functions"
+                },
+                {
+                    "name": "named groups"
+                },
+                {
+                    "name": "named individuals"
+                },
+                {
+                    "name": "nudes"
+                },
+                {
+                    "name": "diseases and conditions"
+                },
+                {
+                    "name": "ethnicity"
+                },
+                {
+                    "name": "named families"
+                }
+            ]
+        },
+        {
+            "name": "religion and belief",
+            "children": [
+                {
+                    "name": "Bible: Old Testament"
+                },
+                {
+                    "name": "universal religious imagery"
+                },
+                {
+                    "name": "classical myths: gods and heroes"
+                },
+                {
+                    "name": "Judaeo-Christian imagery"
+                },
+                {
+                    "name": "classical myths: events, themes"
+                },
+                {
+                    "name": "classical myths: creatures"
+                },
+                {
+                    "name": "Saints"
+                },
+                {
+                    "name": "Bible: New Testament"
+                },
+                {
+                    "name": "magic and occultism"
+                },
+                {
+                    "name": "mysticism"
+                },
+                {
+                    "name": "world religions"
+                }
+            ]
+        },
+        {
+            "name": "work and occupations",
+            "children": [
+                {
+                    "name": "royalty and social rank"
+                },
+                {
+                    "name": "trading and commercial"
+                },
+                {
+                    "name": "military"
+                },
+                {
+                    "name": "arts and entertainment"
+                },
+                {
+                    "name": "religious"
+                },
+                {
+                    "name": "agriculture and fishing"
+                },
+                {
+                    "name": "industrial and crafts"
+                },
+                {
+                    "name": "crime and punishment"
+                },
+                {
+                    "name": "public service"
+                },
+                {
+                    "name": "educational and scientific"
+                },
+                {
+                    "name": "medical"
+                },
+                {
+                    "name": "domestic"
+                },
+                {
+                    "name": "literary"
+                },
+                {
+                    "name": "equestrian and sporting"
+                }
+            ]
+        },
+        {
+            "name": "objects",
+            "children": [
+                {
+                    "name": "religious and ceremonial"
+                },
+                {
+                    "name": "heating and lighting"
+                },
+                {
+                    "name": "electrical appliances"
+                },
+                {
+                    "name": "miscellaneous"
+                },
+                {
+                    "name": "furnishings"
+                },
+                {
+                    "name": "fine arts and music"
+                },
+                {
+                    "name": "reading, writing, printed matter"
+                },
+                {
+                    "name": "tools and machinery"
+                },
+                {
+                    "name": "vessels and containers"
+                },
+                {
+                    "name": "food and drink"
+                },
+                {
+                    "name": "kitchen"
+                },
+                {
+                    "name": "clothing and personal effects"
+                },
+                {
+                    "name": "domestic"
+                },
+                {
+                    "name": "weapons"
+                },
+                {
+                    "name": "fine art and design, named works"
+                },
+                {
+                    "name": "agriculture, gardening & fishing"
+                },
+                {
+                    "name": "medical"
+                },
+                {
+                    "name": "scientific and measuring"
+                },
+                {
+                    "name": "toys and models"
+                },
+                {
+                    "name": "sports and games"
+                },
+                {
+                    "name": "materials"
+                }
+            ]
+        },
+        {
+            "name": "nature",
+            "children": [
+                {
+                    "name": "natural phenomena"
+                },
+                {
+                    "name": "landscape"
+                },
+                {
+                    "name": "water: inland"
+                },
+                {
+                    "name": "animals: mammals"
+                },
+                {
+                    "name": "times of the day"
+                },
+                {
+                    "name": "weather"
+                },
+                {
+                    "name": "plants and flowers"
+                },
+                {
+                    "name": "astronomy"
+                },
+                {
+                    "name": "seascapes and coasts"
+                },
+                {
+                    "name": "seasons"
+                },
+                {
+                    "name": "trees"
+                },
+                {
+                    "name": "animals: features"
+                },
+                {
+                    "name": "animals: birds"
+                },
+                {
+                    "name": "animals: fantastic"
+                },
+                {
+                    "name": "animals: reptiles"
+                },
+                {
+                    "name": "animals: actions"
+                },
+                {
+                    "name": "animals: fish and aquatic life"
+                },
+                {
+                    "name": "animals: insects & lower animals"
+                }
+            ]
+        },
+        {
+            "name": "architecture",
+            "children": [
+                {
+                    "name": "townscapes, man-made features"
+                },
+                {
+                    "name": "monuments"
+                },
+                {
+                    "name": "residential"
+                },
+                {
+                    "name": "periods and styles"
+                },
+                {
+                    "name": "religious"
+                },
+                {
+                    "name": "industrial"
+                },
+                {
+                    "name": "ruins"
+                },
+                {
+                    "name": "military"
+                },
+                {
+                    "name": "features"
+                },
+                {
+                    "name": "bridges and viaducts"
+                },
+                {
+                    "name": "garden structures"
+                },
+                {
+                    "name": "agricultural"
+                },
+                {
+                    "name": "public and municipal"
+                },
+                {
+                    "name": "places of entertainment"
+                }
+            ]
+        },
+        {
+            "name": "abstraction",
+            "children": [
+                {
+                    "name": "non-representational"
+                },
+                {
+                    "name": "from recognisable sources"
+                }
+            ]
+        },
+        {
+            "name": "emotions, concepts and ideas",
+            "children": [
+                {
+                    "name": "formal qualities"
+                },
+                {
+                    "name": "emotions and human qualities"
+                },
+                {
+                    "name": "universal concepts"
+                }
+            ]
+        },
+        {
+            "name": "places",
+            "children": [
+                {
+                    "name": "UK countries and regions"
+                },
+                {
+                    "name": "UK London"
+                },
+                {
+                    "name": "cities, towns, villages (non-UK)"
+                },
+                {
+                    "name": "countries and continents"
+                },
+                {
+                    "name": "UK counties"
+                },
+                {
+                    "name": "UK man-made landmarks"
+                },
+                {
+                    "name": "UK natural features"
+                },
+                {
+                    "name": "UK cities, towns and villages"
+                },
+                {
+                    "name": "natural features (non-UK)"
+                },
+                {
+                    "name": "man-made landmarks (non-UK)"
+                },
+                {
+                    "name": "mythical, religious, fictional"
+                },
+                {
+                    "name": "historical: imagined views"
+                }
+            ]
+        },
+        {
+            "name": "interiors",
+            "children": [
+                {
+                    "name": "workspaces"
+                },
+                {
+                    "name": "domestic"
+                },
+                {
+                    "name": "places of entertainment"
+                },
+                {
+                    "name": "religious"
+                },
+                {
+                    "name": "public and municipal"
+                }
+            ]
+        },
+        {
+            "name": "literature and fiction",
+            "children": [
+                {
+                    "name": "classical"
+                },
+                {
+                    "name": "literature (not Shakespeare)"
+                },
+                {
+                    "name": "tales, legends and traditional"
+                },
+                {
+                    "name": "characters"
+                },
+                {
+                    "name": "film, music and ballet"
+                },
+                {
+                    "name": "Shakespeare"
+                }
+            ]
+        },
+        {
+            "name": "leisure and pastimes",
+            "children": [
+                {
+                    "name": "music and entertainment"
+                },
+                {
+                    "name": "eating and drinking"
+                },
+                {
+                    "name": "recreational activities"
+                },
+                {
+                    "name": "art and craft"
+                },
+                {
+                    "name": "sport"
+                }
+            ]
+        },
+        {
+            "name": "history",
+            "children": [
+                {
+                    "name": "politics and society"
+                },
+                {
+                    "name": "military: World War II"
+                },
+                {
+                    "name": "military: World War I"
+                },
+                {
+                    "name": "military"
+                },
+                {
+                    "name": "arts"
+                },
+                {
+                    "name": "classical"
+                },
+                {
+                    "name": "religious"
+                }
+            ]
+        },
+        {
+            "name": "society",
+            "children": [
+                {
+                    "name": "transport: water"
+                },
+                {
+                    "name": "lifestyle and culture"
+                },
+                {
+                    "name": "social comment"
+                },
+                {
+                    "name": "sex and relationships"
+                },
+                {
+                    "name": "transport: land"
+                },
+                {
+                    "name": "birth to death"
+                },
+                {
+                    "name": "dress: ceremonial/royal"
+                },
+                {
+                    "name": "nationality"
+                },
+                {
+                    "name": "dress: fantasy/fancy"
+                },
+                {
+                    "name": "crime and punishment"
+                },
+                {
+                    "name": "government and politics"
+                },
+                {
+                    "name": "family"
+                },
+                {
+                    "name": "education, science and learning"
+                },
+                {
+                    "name": "health and welfare"
+                },
+                {
+                    "name": "dress: nations/regions"
+                },
+                {
+                    "name": "transport: air"
+                }
+            ]
+        },
+        {
+            "name": "symbols & personifications",
+            "children": [
+                {
+                    "name": "birth to death"
+                },
+                {
+                    "name": "inscriptions"
+                },
+                {
+                    "name": "emotional states and conditions"
+                },
+                {
+                    "name": "abstract concepts"
+                },
+                {
+                    "name": "gender"
+                },
+                {
+                    "name": "society"
+                },
+                {
+                    "name": "politics"
+                },
+                {
+                    "name": "religious"
+                },
+                {
+                    "name": "mythological"
+                },
+                {
+                    "name": "nature"
+                },
+                {
+                    "name": "countries"
+                },
+                {
+                    "name": "people"
+                }
+            ]
+        },
+        {
+            "name": "group/movement",
+            "children": [
+                {
+                    "name": "21st century"
+                }
+            ]
+        }
+    ]
+}
