@@ -20,35 +20,79 @@
             <p><strong>Salient Image:</strong> An image that captures attention more than others.</p> -->
         </div>
     </header>
-    <main>
-        <div id="user-info">
-            <label for="expertise">Are you an expert?</label>
-            <select id="expertise">
-                <option value="expert">Expert</option>
-                <option value="non-expert">Non-Expert</option>
-            </select>
-            <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" required>
-            <button id="start-survey">Start Survey</button>
-        </div>
-        <div id="group-selection" style="display: none;">
-            <h2>Select your group</h2>
-            <button id="select-group-a">Group A</button>
-            <button id="select-group-b">Group B</button>
-        </div>
-        <div id="survey-group-a" class="survey-group" style="display: none;">
-            <div id="group-a-questions" class="question-container"></div>
-            <div id="progress-a" class="progress"></div>
-        </div>
-        <div id="survey-group-b" class="survey-group" style="display: none;">
-            <div id="group-b-questions" class="question-container"></div>
-            <div id="progress-b" class="progress"></div>
-        </div>
-        <div id="thank-you" class="thank-you" style="display: none;">
-            <h2>Thank you for completing the survey!</h2>
-        </div>
+    <main class="main-container">
+        <aside class="sidebar">
+            <h3>Subjects Hierarchy</h3>
+            <ul id="tree-root"></ul>
+        </aside>
+        <section class="content">
+            <div id="user-info">
+                <label for="expertise">Are you a domain expert?</label>
+                <select id="expertise">
+                    <option value="expert">Expert</option>
+                    <option value="non-expert">Non-Expert</option>
+                </select>
+                <label for="first-name">Name:</label>
+                <input type="text" id="first-name" required>
+                <button id="start-survey">Start Survey</button>
+            </div>
+            <div id="group-selection" style="display: none;">
+                <h2>Select your group</h2>
+                <button id="select-group-a">Group A</button>
+                <button id="select-group-b">Group B</button>
+            </div>
+            <div id="survey-group-a" class="survey-group" style="display: none;">
+                <div id="group-a-questions" class="question-container"></div>
+                <div id="progress-a" class="progress"></div>
+            </div>
+            <div id="survey-group-b" class="survey-group" style="display: none;">
+                <div id="group-b-questions" class="question-container"></div>
+                <div id="progress-b" class="progress"></div>
+            </div>
+            <div id="thank-you" class="thank-you" style="display: none;">
+                <h2>Thank you for completing the survey!</h2>
+            </div>
+        </section>
     </main>
     <script src="script.js"></script>
+    <script>
+        async function fetchTreeData(url) {
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        }
+
+        function createTreeElement(data, depth, maxDepth) {
+            const ul = document.createElement('ul');
+            const li = document.createElement('li');
+            li.textContent = data.name;
+
+            if (data.children && depth < maxDepth) {
+                const childrenUl = document.createElement('ul');
+                childrenUl.classList.add('hidden');
+                data.children.forEach(child => {
+                    childrenUl.appendChild(createTreeElement(child, depth + 1, maxDepth));
+                });
+                li.appendChild(childrenUl);
+                li.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    childrenUl.classList.toggle('hidden');
+                });
+            }
+
+            ul.appendChild(li);
+            return ul;
+        }
+
+        async function renderTree() {
+            const treeData = await fetchTreeData('https://raw.githubusercontent.com/mondoboia/conceptual-saliency/main/subjects_tree.json');
+            const treeRoot = document.getElementById('tree-root');
+            const treeElement = createTreeElement(treeData, 0, 2); // maxDepth is 2
+            treeRoot.appendChild(treeElement);
+        }
+
+        renderTree();
+    </script>
 </body>
 
 </html>

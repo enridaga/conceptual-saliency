@@ -23,17 +23,108 @@ h2 {
     margin-bottom: 1em;
 }
 
-main {
-    padding: 2em;
-    text-align: center;
+h3 {
+    color: #2a3d66
 }
 
-#group-selection {
-    margin-bottom: 3em;
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tree-root {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tree-root ul {
+    list-style-type: none;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#tree-root li {
+    margin: 0;
+    padding: 5px 12px;
+    line-height: 20px;
+    color: #369;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+#tree-root li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    border-left: 1px solid #ccc;
+    bottom: 50px;
+    height: 100%;
+    width: 1px;
+}
+
+#tree-root li::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    border-top: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+}
+
+#tree-root li:last-child::before {
+    bottom: auto;
+    height: 10px;
+}
+
+#tree-root .hidden {
+    display: none;
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 2em;
+}
+
+#user-info label,
+#user-info select,
+#user-info input,
+#user-info button {
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 300px;
 }
 
 .survey-group {
     margin-bottom: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .progress {
@@ -47,7 +138,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.question-container {
+.question-group {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,12 +171,6 @@ main {
     flex-grow: 1;
 }
 
-.attribute-wrapper p {
-    margin: 0.2em 0;
-    padding-top: 0;
-    font-size: 0.9em;
-}
-
 .attribute-container {
     background-color: #ffffff;
     padding: 1em;
@@ -99,6 +184,12 @@ main {
 
 .attribute-wrapper strong {
     margin-bottom: 0.5em;
+}
+
+.attribute-wrapper p {
+    margin: 0.2em 0;
+    padding-top: 0;
+    font-size: 0.9em;
 }
 
 .likert-scale {
