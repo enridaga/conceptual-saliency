@@ -80,6 +80,12 @@ main {
     flex-grow: 1;
 }
 
+.attribute-wrapper p {
+    margin: 0.2em 0;
+    padding-top: 0;
+    font-size: 0.9em;
+}
+
 .attribute-container {
     background-color: #ffffff;
     padding: 1em;
@@ -88,14 +94,30 @@ main {
     width: 80%;
     text-align: left;
     flex-grow: 1;
+    margin-bottom: 1em;
 }
 
 .attribute-wrapper strong {
     margin-bottom: 0.5em;
 }
 
-.question-group {
+.likert-scale {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-bottom: 1em;
+    width: 100%;
+}
+
+.likert-scale label {
+    text-align: center;
+}
+
+.likert-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 button {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concept Survey</title>
+    <title>Survey</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,23 +21,31 @@
         </div>
     </header>
     <main>
-        <div id="group-selection">
-            <h3>Select Your Group</h3>
+        <div id="user-info">
+            <label for="expertise">Are you an expert?</label>
+            <select id="expertise">
+                <option value="expert">Expert</option>
+                <option value="non-expert">Non-Expert</option>
+            </select>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required>
+            <button id="start-survey">Start Survey</button>
+        </div>
+        <div id="group-selection" style="display: none;">
+            <h2>Select your group</h2>
             <button id="select-group-a">Group A</button>
             <button id="select-group-b">Group B</button>
         </div>
         <div id="survey-group-a" class="survey-group" style="display: none;">
-            <h3>Group A</h3>
+            <div id="group-a-questions" class="question-container"></div>
             <div id="progress-a" class="progress"></div>
-            <div class="question-container" id="group-a-questions"></div>
         </div>
         <div id="survey-group-b" class="survey-group" style="display: none;">
-            <h3>Group B</h3>
+            <div id="group-b-questions" class="question-container"></div>
             <div id="progress-b" class="progress"></div>
-            <div class="question-container" id="group-b-questions"></div>
         </div>
-        <div id="thank-you" style="display: none;">
-            <h3>Thank you for completing the survey!</h3>
+        <div id="thank-you" class="thank-you" style="display: none;">
+            <h2>Thank you for completing the survey!</h2>
         </div>
     </main>
     <script src="script.js"></script>
