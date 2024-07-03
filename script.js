@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 options: {
                     responsive: true,
                     maintainAspectRatio: true,
-                    rotation: -15 * Math.PI,
+                    rotation: -20 * Math.PI,
                     plugins: {
                         legend: {
                             display: false
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const questionGroupRep = document.createElement('div');
             questionGroupRep.className = 'question-group';
-            questionGroupRep.innerHTML = '<p>Which concept is more <b>representative</b>?</p>';
+            questionGroupRep.innerHTML = '<p>Which cluster is more <b>representative</b>?</p>';
             const definitionParagraphRep = document.createElement('p');
             definitionParagraphRep.className = 'definition';
             definitionParagraphRep.textContent = 'Exemplifies a wider group, class, or kind; (of an individual) typical; (of a sample or selection) balanced.';
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const questionGroupPro = document.createElement('div');
             questionGroupPro.className = 'question-group';
-            questionGroupPro.innerHTML = '<p>Which concept is more <b>prominent</b>?</p>';
+            questionGroupPro.innerHTML = '<p>Which cluster is more <b>prominent</b>?</p>';
             const definitionParagraphPro = document.createElement('p');
             definitionParagraphPro.className = 'definition';
             definitionParagraphPro.textContent = 'Stands out so as to catch the attention; notable; distinguished above others of the same kind; (of a person) well-known, important.';
