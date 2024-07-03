@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -18,12 +19,16 @@
         <p>Dataset overview: <strong>58,800 artworks</strong>, <strong>160 subjects</strong>.</p>
         <div class="definitions">
             <ul>
-                <!-- <li><strong>SALIENCY:</strong> Saliency refers to the aspect of an element that stands out relative to
-                    its neighbors.</li> -->
-                <li><strong>REPRESENTATIVENESS:</strong> Representativeness is the quality of effectively and accurately
-                    depicting a certain subject or group of subjects.</li>
-                <li><strong>PROMINENCE:</strong> Prominence refers to the state of being important, well-known, or
-                    noticeable within a certain context.</li>
+                <li><strong>REPRESENTATIVE:</strong> <i>That exemplifies a wider group, class, or kind; (of an
+                        individual)
+                        typical; (of a sample or selection) balanced</i> (Oxford dictionary). You
+                    will be asked to decide which cluster of artworks and subjects is more representative of the all
+                    Tate Gallery collection.</li>
+                <li><strong>PROMINENT:</strong> <i>That stands out so as to catch the attention; notable; distinguished
+                        above others of the same kind; (of a person) well-known, important.</i> (Oxford dictionary). You
+                    will
+                    be asked to decide which cluster of artworks and subjects is more prominent with respect to the Tate
+                    Gallery collection.</li>
             </ul>
         </div>
     </header>
@@ -61,6 +66,7 @@
             </div>
         </section>
     </main>
+
     <script src="script.js"></script>
     <script>
         async function fetchTreeData(url) {
@@ -74,9 +80,11 @@
             const li = document.createElement('li');
             li.textContent = data.name;
 
-            if (data.children && depth < maxDepth) {
+            if (data.children) {
                 const childrenUl = document.createElement('ul');
-                childrenUl.classList.add('hidden');
+                if (depth === maxDepth) {
+                    childrenUl.classList.add('hidden');
+                }
                 data.children.forEach(child => {
                     childrenUl.appendChild(createTreeElement(child, depth + 1, maxDepth));
                 });
@@ -94,7 +102,7 @@
         async function renderTree() {
             const treeData = await fetchTreeData('https://raw.githubusercontent.com/mondoboia/conceptual-saliency/main/subjects_tree.json');
             const treeRoot = document.getElementById('tree-root');
-            const treeElement = createTreeElement(treeData, 0, 2); // maxDepth is 2
+            const treeElement = createTreeElement(treeData, 0, 1); // maxDepth is 2
             treeRoot.appendChild(treeElement);
         }
 

@@ -96,13 +96,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 case '2':
                     return { saliency: `weak ${leftConcept.saliency}`, conceptId: leftConcept.id };
                 case '3':
-                    return { saliency: 'none', conceptId: 0 };
+                    return { saliency: 'equal', conceptId: 0 };
                 case '4':
                     return { saliency: `weak ${rightConcept.saliency}`, conceptId: rightConcept.id };
                 case '5':
                     return { saliency: `strong ${rightConcept.saliency}`, conceptId: rightConcept.id };
                 default:
-                    return { saliency: 'none', conceptId: 0 };
+                    return { saliency: 'equal', conceptId: 0 };
             }
         }
 
@@ -113,65 +113,128 @@ document.addEventListener('DOMContentLoaded', function () {
             const leftAttributesList = createAttributeList(pair[0].attributes);
             const rightAttributesList = createAttributeList(pair[1].attributes);
 
-            questionDiv.innerHTML = `
-                <div class="attributes">
-                    <div class="attribute-wrapper">
-                        <strong>Left:</strong>
-                        <div class="attribute-container"></div>
-                        <p>Artworks: ${pair[0].artworks_num}</p>
-                        <p>Percentage: ${pair[0].artworks_percentage}%</p>
-                    </div>
-                    <div class="attribute-wrapper">
-                        <strong>Right:</strong>
-                        <div class="attribute-container"></div>
-                        <p>Artworks: ${pair[1].artworks_num}</p>
-                        <p>Percentage: ${pair[1].artworks_percentage}%</p>
-                    </div>
-                </div>
-                <div class="question-group">
-                    <p>Which concept is more <b>representative</b>?</p>
-                </div>
-                <div class="likert-wrapper">
-                    <div class="likert-scale">
-                        ${createLikertScale('rep', ['Strongly Left', 'Left', 'Neutral', 'Right', 'Strongly Right']).outerHTML}
-                    </div>
-                </div>
-                <div class="question-group">
-                    <p>Which concept is more <b>prominent</b>?</p>
-                </div>
-                <div class="likert-wrapper">
-                    <div class="likert-scale">
-                        ${createLikertScale('pec', ['Strongly Left', 'Left', 'Neutral', 'Right', 'Strongly Right']).outerHTML}
-                    </div>
-                </div>
-                <button id="next-button" disabled>Next</button>
+            const attributesDiv = document.createElement('div');
+            attributesDiv.className = 'attributes';
+
+            const leftWrapper = document.createElement('div');
+            leftWrapper.className = 'attribute-wrapper';
+            const leftStrong = document.createElement('strong');
+            leftStrong.textContent = 'Left:';
+            const leftContainer = document.createElement('div');
+            leftContainer.className = 'attribute-container';
+            leftContainer.appendChild(leftAttributesList);
+            leftWrapper.appendChild(leftStrong);
+            leftWrapper.appendChild(leftContainer);
+            leftWrapper.innerHTML += `
+                <p>Artworks: ${pair[0].artworks_num}</p>
+                <p>Percentage: ${pair[0].artworks_percentage}%</p>
             `;
 
-            const leftContainer = questionDiv.querySelector('.attribute-wrapper .attribute-container');
-            const rightContainer = questionDiv.querySelector('.attribute-wrapper + .attribute-wrapper .attribute-container');
+            const pieChartContainer = document.createElement('div');
+            pieChartContainer.className = 'pie-chart-container';
+            const pieChartCanvas = document.createElement('canvas');
+            pieChartCanvas.id = `pieChart-${questionIndex}`;
+            pieChartContainer.appendChild(pieChartCanvas);
 
-            leftContainer.appendChild(leftAttributesList);
+            const rightWrapper = document.createElement('div');
+            rightWrapper.className = 'attribute-wrapper';
+            const rightStrong = document.createElement('strong');
+            rightStrong.textContent = 'Right:';
+            const rightContainer = document.createElement('div');
+            rightContainer.className = 'attribute-container';
             rightContainer.appendChild(rightAttributesList);
+            rightWrapper.appendChild(rightStrong);
+            rightWrapper.appendChild(rightContainer);
+            rightWrapper.innerHTML += `
+                <p>Artworks: ${pair[1].artworks_num}</p>
+                <p>Percentage: ${pair[1].artworks_percentage}%</p>
+            `;
+
+            attributesDiv.appendChild(leftWrapper);
+            attributesDiv.appendChild(pieChartContainer);
+            attributesDiv.appendChild(rightWrapper);
+
+            questionDiv.appendChild(attributesDiv);
+
+            // Create pie chart
+            const pieCtx = pieChartCanvas.getContext('2d');
+            const totalPercentage = pair[0].artworks_percentage + pair[1].artworks_percentage;
+            const remainingPercentage = 100 - totalPercentage;
+
+            new Chart(pieCtx, {
+                type: 'pie',
+                data: {
+                    labels: ['Left', 'Right', 'Remaining'],
+                    datasets: [{
+                        data: [pair[0].artworks_percentage, pair[1].artworks_percentage, remainingPercentage],
+                        backgroundColor: ['#6c5ce7', '#00cec9', '#d3d3d3']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    rotation: -15 * Math.PI,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            const questionGroupRep = document.createElement('div');
+            questionGroupRep.className = 'question-group';
+            questionGroupRep.innerHTML = '<p>Which concept is more <b>representative</b>?</p>';
+            const definitionParagraphRep = document.createElement('p');
+            definitionParagraphRep.className = 'definition';
+            definitionParagraphRep.textContent = 'Exemplifies a wider group, class, or kind; (of an individual) typical; (of a sample or selection) balanced.';
+            questionGroupRep.appendChild(definitionParagraphRep);
+            const likertWrapperRep = document.createElement('div');
+            likertWrapperRep.className = 'likert-wrapper';
+            likertWrapperRep.appendChild(createLikertScale('rep', ['Strongly Left', 'Left', 'Equally', 'Right', 'Strongly Right']));
+            questionDiv.appendChild(questionGroupRep);
+            questionDiv.appendChild(likertWrapperRep);
+
+            const questionGroupPro = document.createElement('div');
+            questionGroupPro.className = 'question-group';
+            questionGroupPro.innerHTML = '<p>Which concept is more <b>prominent</b>?</p>';
+            const definitionParagraphPro = document.createElement('p');
+            definitionParagraphPro.className = 'definition';
+            definitionParagraphPro.textContent = 'Stands out so as to catch the attention; notable; distinguished above others of the same kind; (of a person) well-known, important.';
+            questionGroupPro.appendChild(definitionParagraphPro);
+            const likertWrapperPro = document.createElement('div');
+            likertWrapperPro.className = 'likert-wrapper';
+            likertWrapperPro.appendChild(createLikertScale('pro', ['Strongly Left', 'Left', 'Equally', 'Right', 'Strongly Right']));
+            questionDiv.appendChild(questionGroupPro);
+            questionDiv.appendChild(likertWrapperPro);
+
+            const buttonContainer = document.createElement('div');
+            buttonContainer.className = 'button-container';
+            const nextButton = document.createElement('button');
+            nextButton.id = 'next-button';
+            nextButton.textContent = 'Next';
+            nextButton.disabled = true;
+            buttonContainer.appendChild(nextButton);
+            questionDiv.appendChild(buttonContainer);
 
             const repRadios = questionDiv.querySelectorAll('input[name="rep"]');
-            const pecRadios = questionDiv.querySelectorAll('input[name="pec"]');
-            const nextButton = questionDiv.querySelector('#next-button');
+            const proRadios = questionDiv.querySelectorAll('input[name="pro"]');
 
             function enableNextButton() {
                 const repSelected = Array.from(repRadios).some(radio => radio.checked);
-                const pecSelected = Array.from(pecRadios).some(radio => radio.checked);
-                nextButton.disabled = !(repSelected && pecSelected);
+                const proSelected = Array.from(proRadios).some(radio => radio.checked);
+                nextButton.disabled = !(repSelected && proSelected);
             }
 
             repRadios.forEach(radio => radio.addEventListener('change', enableNextButton));
-            pecRadios.forEach(radio => radio.addEventListener('change', enableNextButton));
+            proRadios.forEach(radio => radio.addEventListener('change', enableNextButton));
 
             nextButton.addEventListener('click', () => {
                 const repValue = questionDiv.querySelector('input[name="rep"]:checked').value;
-                const pecValue = questionDiv.querySelector('input[name="pec"]:checked').value;
+                const proValue = questionDiv.querySelector('input[name="pro"]:checked').value;
 
                 const repSaliency = getSaliencyValue(repValue, pair[0], pair[1]);
-                const pecSaliency = getSaliencyValue(pecValue, pair[0], pair[1]);
+                const proSaliency = getSaliencyValue(proValue, pair[0], pair[1]);
 
                 const currentResult = {
                     questionNumber: questionIndex + 1,
@@ -181,8 +244,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     chart: chart,
                     rep: repSaliency.conceptId,
                     repSaliency: repSaliency.saliency,
-                    pec: pecSaliency.conceptId,
-                    pecSaliency: pecSaliency.saliency,
+                    pro: proSaliency.conceptId,
+                    proSaliency: proSaliency.saliency,
                     userId: userId // Include userId
                 };
 
@@ -217,7 +280,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const { method, chart, pair } = pairs[questionIndex];
             const question = createQuestion(method, chart, pair);
 
-            container.appendChild(question);
+            if (question) {
+                container.appendChild(question);
+            }
         }
 
         nextQuestion();
@@ -225,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function sendResult(result) {
         console.log('Sending result:', JSON.stringify(result));
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxbjZkZioMUiCXIHYMdIjFYvuWOotBzUqp64LoHZdoYtd015LMJKXCsQVmCxpjP6stIMw/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxIh_sY0gDB3O39Ci7TYcpWK_3mJqSVPkz0ARk_ASY6uwqZDwF6Hsr1dBKOA2NXqYrneg/exec';
         fetch(scriptURL, {
             method: 'POST',
             mode: 'no-cors',
