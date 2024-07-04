@@ -107,6 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function createQuestion(method, chart, pair) {
+            // Define colors
+            const colors = ['rgba(108, 92, 231, 0.5)', 'rgba(0, 206, 201, 0.5)', 'rgba(211, 211, 211, 0.5)'];
             const questionDiv = document.createElement('div');
             questionDiv.className = 'question';
 
@@ -122,6 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
             leftStrong.textContent = 'Left:';
             const leftContainer = document.createElement('div');
             leftContainer.className = 'attribute-container';
+            leftContainer.style.backgroundColor = colors[0];
             leftContainer.appendChild(leftAttributesList);
             leftWrapper.appendChild(leftStrong);
             leftWrapper.appendChild(leftContainer);
@@ -142,6 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
             rightStrong.textContent = 'Right:';
             const rightContainer = document.createElement('div');
             rightContainer.className = 'attribute-container';
+            rightContainer.style.backgroundColor = colors[1];
             rightContainer.appendChild(rightAttributesList);
             rightWrapper.appendChild(rightStrong);
             rightWrapper.appendChild(rightContainer);
@@ -156,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             questionDiv.appendChild(attributesDiv);
 
+
             // Create pie chart
             const pieCtx = pieChartCanvas.getContext('2d');
             const totalPercentage = pair[0].artworks_percentage + pair[1].artworks_percentage;
@@ -167,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     labels: ['Left', 'Right', 'Remaining'],
                     datasets: [{
                         data: [pair[0].artworks_percentage, pair[1].artworks_percentage, remainingPercentage],
-                        backgroundColor: ['#6c5ce7', '#00cec9', '#d3d3d3']
+                        backgroundColor: colors
                     }]
                 },
                 options: {

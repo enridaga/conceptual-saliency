@@ -8,7 +8,7 @@ body {
 
 header {
     text-align: left;
-    padding: 2em;
+    padding: 1.5em 2em;
     background-color: #dfe7ef;
     color: #2a3d66;
 }
@@ -27,7 +27,8 @@ h3 {
     color: #2a3d66;
 }
 
-header p {
+header p,
+dl {
     font-size: 0.9em;
     line-height: 1.5;
     margin-bottom: 1em;
@@ -37,13 +38,8 @@ header p strong {
     font-weight: bold;
 }
 
-.definitions ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.definitions li {
-    margin-bottom: 1em;
+a {
+    color: #ff6b6b;
 }
 
 
@@ -208,6 +204,7 @@ header p strong {
     flex-grow: 1;
     margin-bottom: 1em;
 }
+
 
 .attribute-wrapper strong {
     margin-bottom: 0.5em;
