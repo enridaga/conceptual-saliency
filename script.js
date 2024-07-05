@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function createQuestion(method, chart, pair) {
             // Define colors
-            const colors = ['rgba(108, 92, 231, 0.5)', 'rgba(0, 206, 201, 0.5)', 'rgba(211, 211, 211, 0.5)'];
+            const colors = ['rgba(108, 92, 231, 0.3)', 'rgba(0, 206, 201, 0.3)', 'rgba(211, 211, 211, 0.5)'];
             const questionDiv = document.createElement('div');
             questionDiv.className = 'question';
 
