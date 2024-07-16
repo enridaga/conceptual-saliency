@@ -1,0 +1,146 @@
+{
+    "lattice": {
+        "01": {
+            "concepts_num": 29,
+            "labels": [
+                "('landscape', 'nature')",
+                "('nature', 'water: inland')",
+                "('nature', 'seascapes and coasts')",
+                "('architecture', 'nature')",
+                "('nature', 'places')",
+                "('architecture', 'townscapes, man-made features')",
+                "('architecture', 'features')",
+                "('architecture', 'places')",
+                "('nature', 'people')",
+                "('countries and continents', 'places')",
+                "('UK countries and regions', 'places')",
+                "('cities, towns, villages (non-UK)', 'places')",
+                "('UK counties', 'places')",
+                "('nature', 'society')",
+                "('architecture', 'people')",
+                "('UK cities, towns and villages', 'places')",
+                "('architecture', 'society')",
+                "('people', 'places')",
+                "('adults', 'people')",
+                "('actions: postures and motions', 'people')",
+                "('places', 'society')",
+                "('people', 'society')",
+                "('objects', 'people')",
+                "('society', 'transport: water')",
+                "('military', 'nature')",
+                "('nature', 'society', 'transport: water')",
+                "('actions: postures and motions', 'adults', 'people')",
+                "('adults', 'people', 'society')",
+                "('adults', 'objects', 'people')"
+            ]
+        },
+        "100": {
+            "concepts_num": 6,
+            "labels": [
+                "('nature',)",
+                "('architecture',)",
+                "('places',)",
+                "('people',)",
+                "('society',)",
+                "('military',)"
+            ]
+        }
+    },
+    "scatterplot": {
+        "01": {
+            "concepts_num": 27,
+            "labels": [
+                "('nature', 'society', 'transport: water')",
+                "('adults', 'people', 'places')",
+                "('actions: postures and motions', 'adults', 'people')",
+                "('cities, towns, villages (non-UK)', 'nature', 'places')",
+                "('UK cities, towns and villages', 'UK counties', 'places')",
+                "('UK cities, towns and villages', 'UK countries and regions', 'places')",
+                "('UK counties', 'architecture', 'places')",
+                "('adults', 'people', 'society')",
+                "('adults', 'architecture', 'people')",
+                "('nature', 'places', 'water: inland')",
+                "('landscape', 'nature', 'water: inland')",
+                "('UK counties', 'UK countries and regions', 'nature', 'places')",
+                "('adults', 'objects', 'people')",
+                "('architecture', 'nature', 'water: inland')",
+                "('UK countries and regions', 'architecture', 'places')",
+                "('architecture', 'cities, towns, villages (non-UK)', 'places')",
+                "('countries and continents', 'nature', 'places')",
+                "('UK counties', 'UK countries and regions', 'places')",
+                "('UK countries and regions', 'nature', 'places')",
+                "('cities, towns, villages (non-UK)', 'countries and continents', 'places')",
+                "('architecture', 'countries and continents', 'places')",
+                "('adults', 'nature', 'people')",
+                "('architecture', 'places', 'townscapes, man-made features')",
+                "('landscape', 'nature', 'places')",
+                "('architecture', 'nature', 'townscapes, man-made features')",
+                "('architecture', 'nature', 'places')",
+                "('architecture', 'landscape', 'nature')"
+            ]
+        },
+        "100": {
+            "concepts_num": 36,
+            "labels": [
+                "('nature',)",
+                "('architecture',)",
+                "('places',)",
+                "('landscape', 'nature')",
+                "('architecture', 'nature')",
+                "('people',)",
+                "('adults', 'people')",
+                "('nature', 'places')",
+                "('architecture', 'places')",
+                "('architecture', 'townscapes, man-made features')",
+                "('society',)",
+                "('objects',)",
+                "('architecture', 'landscape', 'nature', 'places')",
+                "('architecture', 'landscape', 'nature', 'townscapes, man-made features')",
+                "('architecture', 'nature', 'places', 'townscapes, man-made features')",
+                "('abstraction',)",
+                "('architecture', 'cities, towns, villages (non-UK)', 'countries and continents', 'places')",
+                "('emotions, concepts and ideas',)",
+                "('UK counties', 'nature', 'places')",
+                "('architecture', 'countries and continents', 'nature', 'places')",
+                "('architecture', 'countries and continents', 'places', 'townscapes, man-made features')",
+                "('UK counties', 'UK countries and regions', 'architecture', 'places')",
+                "('military',)",
+                "('UK countries and regions', 'architecture', 'nature', 'places')",
+                "('UK cities, towns and villages', 'UK counties', 'UK countries and regions', 'places')",
+                "('countries and continents', 'landscape', 'nature', 'places')",
+                "('architecture', 'cities, towns, villages (non-UK)', 'places', 'townscapes, man-made features')",
+                "('architecture', 'cities, towns, villages (non-UK)', 'countries and continents', 'places', 'townscapes, man-made features')",
+                "('cities, towns, villages (non-UK)', 'countries and continents', 'nature', 'places')",
+                "('architecture', 'landscape', 'nature', 'places', 'townscapes, man-made features')",
+                "('UK countries and regions', 'landscape', 'nature', 'places')",
+                "('architecture', 'nature', 'places', 'water: inland')",
+                "('architecture', 'cities, towns, villages (non-UK)', 'nature', 'places')",
+                "('architecture', 'cities, towns, villages (non-UK)', 'countries and continents', 'nature', 'places')",
+                "('UK counties', 'architecture', 'nature', 'places')",
+                "('UK counties', 'UK countries and regions', 'architecture', 'nature', 'places')"
+            ]
+        }
+    },
+    "barchart": {
+        "01": {
+            "concepts_num": 6,
+            "labels": [
+                "('architecture', 'cities, towns, villages (non-UK)', 'countries and continents', 'nature', 'places')",
+                "('UK counties', 'architecture', 'nature', 'places')",
+                "('UK counties', 'UK countries and regions', 'architecture', 'nature', 'places')",
+                "('UK counties', 'UK countries and regions', 'architecture', 'nature', 'places')",
+                "('places', 'society')",
+                "('military', 'nature')"
+            ]
+        },
+        "100": {
+            "concepts_num": 4,
+            "labels": [
+                "('landscape', 'nature')",
+                "('architecture', 'nature')",
+                "('actions: postures and motions', 'people')",
+                "('UK cities, towns and villages', 'places')"
+            ]
+        }
+    }
+}
