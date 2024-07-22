@@ -1,0 +1,3 @@
+[submodule "pySaliencyMap"]
+	path = pySaliencyMap
+	url = https://github.com/mondoboia/pySaliencyMap.git
